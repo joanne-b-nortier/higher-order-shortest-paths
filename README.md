@@ -1,6 +1,6 @@
 # Data and code for *"Higher-order shortest paths in hypergraphs"*
 
-This repository contains references to data and code for preprocessing those datasets analysed in the following paper:
+This repository contains data and code to analysed in the following paper:
 *Berné L. Nortier, Simon Dobson and Federico Battiston ["Higher-order shortest paths in hypergraphs"](https://arxiv.org/abs/2502.03020), arXiv Preprint (2025)*
 
 
@@ -23,9 +23,10 @@ For loading and creating temporal networks, **2 python scripts and a helper file
 * All helper functions are available in `utils_preprocessing.py`;
 * Finally, `FnF_aggregation_window.ipynb` plots the size of the largest connected component as a function of the aggregation window in minutes for the Friends & Family dataset. 
 
-The `Data` folder will contain all raw and processed data and an example of the file structure has been provided for *Elem1*.
 
-In particular, the preprocessing scripts assume the following folder hierarchy:
+The `Data` folder will contain all raw and processed data. 
+
+The scripts assume the following folder hierarchy:
 
 ```
 Data
@@ -41,3 +42,6 @@ where raw data is stored in `raw` and generated temporal and static networks are
 
 
 
+# Supplementary Materials.
+
+Supplementary materials including additional analysis that accompany the publication of the article can be found in the associated .pdf file `supplementary-materials-hopaths.pdf`
